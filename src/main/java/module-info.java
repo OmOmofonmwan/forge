@@ -1,6 +1,6 @@
 module dev.ikm.tinkar.forge {
-    requires dev.ikm.jpms.eclipse.collections.api;
-    requires dev.ikm.tinkar.coordinate;
+    requires org.eclipse.collections.api;
+    requires org.eclipse.collections.impl;
     requires dev.ikm.tinkar.entity;
     requires dev.ikm.tinkar.terms;
     requires freemarker;
